@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_channel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+  <ProgressBar
+      android:id="@+id/pb_msginfo"
+      style="?android:attr/progressBarStyleHorizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="3dip"
+      android:indeterminateOnly="false"
+      android:max="100"
+      android:progressDrawable="@drawable/progress_bar_states" >
+  </ProgressBar>
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+
+        <WebView
+            android:id="@+id/web_msginfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+      </LinearLayout>
+    </ScrollView>
+   <Button
+       android:background="@color/colorPrimary"
+       android:text="咨询"
+       android:textColor="@color/white"
+       android:id="@+id/iv_wen"
+       android:layout_marginBottom="30dp"
+       android:layout_marginRight="30dp"
+       android:layout_gravity="bottom|right"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       />
+  </FrameLayout>
+
+</LinearLayout>

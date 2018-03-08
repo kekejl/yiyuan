@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">壹元服务</string>
+    <string name="tips">提示</string>
+    <string name="cancle">取消</string>
+    <string name="confrim">确认</string>
+    <string name="permission_desc">为了应用可以正常使用，请您点击确认申请权限。</string>
+    <string name="tab_1">首页</string>
+    <string name="tab_2">频道</string>
+    <string name="tab_3">公社</string>
+    <string name="tab_4">我的</string>
+
+    <string name="splash_version">V 1.0.0</string>
+    <!--<string name="splash_copyright">Copyright &#169; 2017 YiWang All Rights Reserved\nPowered by Eric Jin</string>-->
+    <string name="splash_copyright">Copyright &#169; 2017 YiWang All Rights Reserved\nPowered by Eric Jin</string>
+    <string name="moreinfo">最新资讯</string>
+    <string name="about">关于我们</string>
+    <string name="message">消息记录</string>
+    <string name="setting">设置</string>
+    <string name="address">地址</string>
+    <string name="mycenter">个人中心</string>
+    <string name="myfavorite">我的收藏</string>
+    <string name="myorder">我的订单</string>
+    <string name="updateservice">升级服务</string>
+    <string name="integral">积分商城</string>
+    <string name="notice">公告</string>
+    <string name="login">登录</string>
+    <string name="signin">注册</string>
+    <string name="subscriptionsetting">订阅设置</string>
+    <string name="exit_toast">再按一次退出程序哦</string>
+    <item type="id"  name="tag"></item>
+
+
+    <string name="umeng_socialize_sharetosina">分享到新浪微博</string>
+    <string name="umeng_socialize_sharetodouban">分享到豆瓣</string>
+    <string name="umeng_socialize_sharetorenren">分享到人人网</string>
+
+    <string name="umeng_socialize_sharetotencent">分享到腾讯微博</string>
+    <string name="umeng_socialize_sharetotwitter">分享到twitter</string>
+    <string name="umeng_socialize_sharetolinkin">分享到领英</string>
+</resources>

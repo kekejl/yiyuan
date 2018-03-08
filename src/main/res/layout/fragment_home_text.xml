@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout--><!----><!--android:orientation="vertical"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+<!--<FrameLayout-->
+
+<!--android:id="@+id/fl_home"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:background="@android:color/transparent">-->
+
+<!--<LinearLayout--><!--android:id="@+id/nac_layout"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:background="@color/colorPrimary"--><!--android:paddingTop="@dimen/padding_top">-->
+
+<!--<View--><!--android:layout_width="match_parent"--><!--android:layout_height="40dp"--><!--android:background="@color/colorPrimary" />--><!--</LinearLayout>-->
+
+<!--<RelativeLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="40dp"--><!--android:layout_gravity="bottom">-->
+
+<!--<ImageView--><!--android:id="@+id/image_signin"--><!--android:layout_width="24dp"--><!--android:layout_height="24dp"--><!--android:layout_alignParentBottom="true"--><!--android:layout_marginBottom="10dp"--><!--android:layout_marginLeft="15dp"--><!--android:layout_marginTop="35dp"--><!--android:src="@drawable/messsge" />-->
+
+<!--<LinearLayout--><!--android:id="@+id/ll_home_search"--><!--android:layout_width="match_parent"--><!--android:layout_height="28dp"--><!--android:layout_alignParentBottom="true"--><!--android:layout_centerHorizontal="true"--><!--android:layout_gravity="bottom"--><!--android:layout_marginBottom="10dp"--><!--android:layout_marginLeft="100dp"--><!--android:background="@drawable/linear_search_shape"--><!--android:gravity="center">-->
+
+<!--<ImageView--><!--android:layout_width="15dp"--><!--android:layout_height="15dp"--><!--android:src="@drawable/search03" />-->
+
+<!--<TextView--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="搜你想搜的"--><!--android:textColor="@color/white"--><!--android:textSize="12sp" />--><!--</LinearLayout>--><!--</RelativeLayout>--><!--</FrameLayout>-->
+
+
+<!--<android.support.design.widget.CoordinatorLayout-->
+
+<!--xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+
+<!--<me.henrytao.smoothappbarlayout.SmoothAppBarLayout--><!--android:layout_width="match_parent"--><!--android:minHeight="100dp"--><!--android:layout_height="wrap_content">--><!--<LinearLayout--><!--android:minHeight="40dp"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical"--><!--app:layout_scrollFlags="scroll"-->
+
+<!--&gt;-->
+
+<!--<include  layout="@layout/view_home"></include>--><!--</LinearLayout>--><!--<com.yiyuaninfo.view.TabPageIndicator--><!--android:id="@+id/tab_home"--><!--android:layout_width="match_parent"--><!--android:layout_height="40dp">-->
+
+<!--</com.yiyuaninfo.view.TabPageIndicator>-->
+
+
+<!--</me.henrytao.smoothappbarlayout.SmoothAppBarLayout>-->
+
+
+<!--<android.support.v4.view.ViewPager-->
+
+<!--android:id="@+id/viewpager_home"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--&gt;-->
+
+<!--</android.support.v4.view.ViewPager>-->
+
+<!----><!--</android.support.design.widget.CoordinatorLayout>-->
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cube_ptr="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/pfl_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        cube_ptr:ptr_duration_to_close="200"
+        cube_ptr:ptr_duration_to_close_header="1000"
+        cube_ptr:ptr_keep_header_when_refresh="false"
+        cube_ptr:ptr_pull_to_fresh="false"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="1"
+        cube_ptr:ptr_resistance="1.1">
+
+        <com.scrollablelayout.ScrollableLayout
+            android:id="@+id/sl_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/view_home" />
+
+            <com.yiyuaninfo.view.TabPageIndicator
+                android:id="@+id/tab_home"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+            </com.yiyuaninfo.view.TabPageIndicator>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f1f1f1" />
+
+        </com.scrollablelayout.ScrollableLayout>
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+    <FrameLayout
+
+        android:id="@+id/fl_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:id="@+id/nac_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingTop="@dimen/padding_top">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_home_msg"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/messsge" />
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+
+                android:id="@+id/ll_home_search"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/linear_search_shape"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/search03" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="搜你想搜的"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>
+
+
+    <!--<android.support.design.widget.AppBarLayout--><!--android:id="@+id/appbar_home"--><!--app:elevation="0dp"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+    <!--<LinearLayout--><!--android:minHeight="40dp"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical"--><!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+
+    <!--&gt;-->
+
+    <!--<include  layout="@layout/view_home"></include>--><!--&lt;!&ndash;<android.support.design.widget.TabLayout&ndash;&gt;--><!--&lt;!&ndash;android:id="@+id/tab_home"&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="40dp"&ndash;&gt;--><!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;--><!--&lt;!&ndash;android:background="?attr/colorPrimary"&ndash;&gt;--><!--&lt;!&ndash;app:tabBackground="@color/white"&ndash;&gt;--><!--&lt;!&ndash;app:tabIndicatorColor="@color/colorAccent"&ndash;&gt;--><!--&lt;!&ndash;app:tabIndicatorHeight="1dp"&ndash;&gt;--><!--&lt;!&ndash;app:tabSelectedTextColor="@color/colorPrimary"&ndash;&gt;--><!--&lt;!&ndash;app:tabTextColor="#000" />&ndash;&gt;--><!--<com.yiyuaninfo.view.TabPageIndicator--><!--android:id="@+id/tab_home"--><!--android:layout_width="match_parent"--><!--android:layout_height="40dp">-->
+
+    <!--</com.yiyuaninfo.view.TabPageIndicator>--><!--</LinearLayout>-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+
+    <!--</LinearLayout>-->

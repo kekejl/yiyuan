@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_top">
+
+        </View>
+        <RelativeLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:id="@+id/image_calendar_back"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back"
+                />
+            <TextView
+                android:layout_centerInParent="true"
+                android:text="信息推送"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+            <RelativeLayout
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp">
+            <ImageView
+                android:id="@+id/image_calendar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/month"
+                />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/calendarleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_calendar"
+        android:background="@color/white"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/calendarright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<View
+    android:background="@color/home_divider"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp">
+
+</View>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_listpush"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <include
+            layout="@layout/empty_view"></include>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

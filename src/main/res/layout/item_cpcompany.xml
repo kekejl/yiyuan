@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_selecter"
+    android:orientation="horizontal"
+    android:padding="10dp">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_cpcompany"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/a1" />
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_cpcompany_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京首证投资顾问有限公司"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:textSize="12sp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:id="@+id/tv_cpcompany_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="资金量:50000万" />
+
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </View>
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--<com.yiyuaninfo.view.FlowLayout-->
+                <!--android:id="@+id/flowlayout_xm_tag"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--/>-->
+            <TextView
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp"
+                android:id="@+id/tv_cpcompany_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popup_corner"
+                android:text="999关注 " />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

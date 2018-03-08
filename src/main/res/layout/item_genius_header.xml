@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"></View>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="为你推荐"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:background="@color/home_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp">
+
+    </View>
+
+    <android.support.v7.widget.RecyclerView
+        android:nestedScrollingEnabled="false"
+        android:id="@+id/rv_media_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+<View
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="5dp">
+
+</View>
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"></View>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="牛人观点"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:visibility="gone"
+        android:background="@color/home_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp">
+
+    </View>
+</LinearLayout>

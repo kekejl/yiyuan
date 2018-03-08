@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pb_msginfo"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_bar_states" >
+    </ProgressBar>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <WebView
+                    android:id="@+id/web_msginfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </WebView>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+     <Button
+         android:id="@+id/bt_bay"
+         android:textColor="@color/white"
+         android:background="@color/colorPrimary"
+         android:text="立即购买"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+</LinearLayout>

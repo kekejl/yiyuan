@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:paddingLeft="16dp"
+            android:text="我是中国人我是中国人我是中国人我是中国人"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#666"
+            android:textSize="16sp" />
+
+        <!--<View-->
+            <!--android:id="@+id/divine"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="3dp"-->
+            <!--android:background="#eee"-->
+            <!--android:orientation="horizontal"></View>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

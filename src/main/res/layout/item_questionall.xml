@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_selecter"
+    android:orientation="vertical"
+    >
+
+
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tv_question1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="云梦泽"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tv_question2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09017-08-09" />
+                <TextView
+                    android:gravity="right"
+                    android:id="@+id/tv_question2_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="云梦泽"
+                    android:textSize="10sp" />
+
+                <View
+                    android:layout_marginTop="10dp"
+                    android:background="@color/home_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"></View>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

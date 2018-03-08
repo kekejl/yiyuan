@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_title">
+        <item>推荐</item>
+        <item>行情</item>
+        <item>头条</item>
+        <item>时政</item>
+        <item>视频</item>
+        <item>娱乐</item>
+        <item>要闻</item>
+        <item>社会</item>
+        <item>国际</item>
+        <item>军事</item>
+        <item>教育</item>
+        <item>电影</item>
+        <item>音乐</item>
+        <item>演出</item>
+        <item>游戏</item>
+        <item>段子</item>
+        <item>时尚</item>
+        <item>美食</item>
+        <item>健康</item>
+        <item>家居</item>
+        <item>购物</item>
+        <item>丽人</item>
+        <item>汽车</item>
+        <item>旅游</item>
+        <item>情感</item>
+    </string-array>
+    <string-array name="home_title_code">
+        <item>__all__</item>
+        <item>video</item>
+        <item>news_hot</item>
+        <item>news_society</item>
+        <item>news_entertainment</item>
+        <item>news_tech</item>
+        <item>news_car</item>
+        <item>news_sports</item>
+        <item>news_finance</item>
+        <item>news_military</item>
+        <item>news_world</item>
+        <item>news_fashion</item>
+        <item>news_game</item>
+        <item>news_travel</item>
+        <item>news_history</item>
+        <item>news_discovery</item>
+        <item>news_food</item>
+        <item>news_baby</item>
+        <item>news_regimen</item>
+        <item>news_story</item>
+        <item>news_essay</item>
+        <item>news_essay</item>
+        <item>news_essay</item>
+        <item>news_essay</item>
+        <item>news_essay</item>
+    </string-array>
+
+    <string-array name="no_expand_titles">
+        <item>自媒体</item>
+        <item>视频</item>
+        <item>我的问答</item>
+    </string-array>
+    <string-array name="home_titles">
+        <item>热搜榜</item>
+        <item>牛人榜</item>
+    </string-array>
+    <string-array name="msg_list">
+        <item>周刊</item>
+        <item>月刊</item>
+    </string-array>
+</resources>

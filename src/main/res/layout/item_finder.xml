@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_selecter"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/image_finder"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/a1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:lines="1"
+            android:ellipsize="end"
+            android:id="@+id/tv_finder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京首证投资顾问有限公司"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/tv_finder_zj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="资金量:50000万" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <com.yiyuaninfo.view.FlowLayout
+            android:id="@+id/flowlayout_finder_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

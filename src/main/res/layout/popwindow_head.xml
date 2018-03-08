@@ -1,0 +1,59 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:background="@drawable/item_selecter"
+            android:foreground="?attr/selectableItemBackground"
+            android:id="@+id/tv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="从相册选取" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/home_divider"></View>
+
+        <TextView
+
+            android:background="@drawable/item_selecter"
+            android:foreground="?attr/selectableItemBackground"
+            android:id="@+id/tv_picture"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="拍照" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/home_divider"></View>
+
+        <TextView
+
+            android:background="@drawable/item_selecter"
+            android:foreground="?attr/selectableItemBackground"
+            android:id="@+id/tv_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="取消" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

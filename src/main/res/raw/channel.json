@@ -1,0 +1,349 @@
+{
+  "allChannelList": [
+    {
+      "groupName": "行情",
+      "groupList": [
+        {
+          "channelname": "股市",
+          "tagType": "3",
+          "group": "行情",
+          "id": "0"
+        },
+        {
+          "channelname": "基金",
+          "tagType": "2",
+          "group": "行情",
+          "id": "1"
+        },
+        {
+          "channelname": "债券",
+          "tagType": "4",
+          "group": "行情",
+          "id": "2"
+        },
+        {
+          "channelname": "外汇",
+          "tagType": "5",
+          "group": "行情",
+          "id": "3"
+        },
+        {
+          "channelname": "期货",
+          "tagType": "6",
+          "group": "行情",
+          "id": "4"
+        },
+        {
+          "channelname": "保险",
+          "tagType": "7",
+          "group": "行情",
+          "id": "5"
+        },
+        {
+          "channelname": "黄金",
+          "tagType": "8",
+          "group": "行情",
+          "id": "6"
+        },
+        {
+          "channelname": "比特币",
+          "tagType": "9",
+          "group": "行情",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "groupName": "热点",
+      "groupList": [
+        {
+          "channelname": "要闻",
+          "tagType": "11",
+          "group": "热点",
+          "id": "0"
+        },
+        {
+          "channelname": "时政",
+          "tagType": "12",
+          "group": "热点",
+          "id": "1"
+        },
+        {
+          "channelname": "社会",
+          "tagType": "13",
+          "group": "热点",
+          "id": "2"
+        },
+        {
+          "channelname": "国际",
+          "tagType": "14",
+          "group": "热点",
+          "id": "3"
+        },
+        {
+          "channelname": "军事",
+          "tagType": "15",
+          "group": "热点",
+          "id": "4"
+        },
+        {
+          "channelname": "教育",
+          "tagType": "16",
+          "group": "热点",
+          "id": "5"
+        },
+        {
+          "channelname": "科技",
+          "tagType": "17",
+          "group": "热点",
+          "id": "6"
+        },
+        {
+          "channelname": "体育",
+          "tagType": "18",
+          "group": "热点",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "groupName": "娱乐",
+      "groupList": [
+        {
+          "channelname": "视频",
+          "tagType": "20",
+          "group": "娱乐",
+          "id": "0"
+        },
+        {
+          "channelname": "影视",
+          "tagType": "21",
+          "group": "娱乐",
+          "id": "1"
+        },
+        {
+          "channelname": "音乐",
+          "tagType": "22",
+          "group": "娱乐",
+          "id": "2"
+        },
+        {
+          "channelname": "演出",
+          "tagType": "23",
+          "group": "娱乐",
+          "id": "3"
+        },
+        {
+          "channelname": "游戏",
+          "tagType": "24",
+          "group": "娱乐",
+          "id": "4"
+        },
+        {
+          "channelname": "段子",
+          "tagType": "25",
+          "group": "娱乐",
+          "id": "5"
+        },
+        {
+          "channelname": "时尚",
+          "tagType": "26",
+          "group": "娱乐",
+          "id": "6"
+        },
+        {
+          "channelname": "八卦",
+          "tagType": "36",
+          "group": "娱乐",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "groupName": "生活",
+      "groupList": [
+        {
+          "channelname": "美食",
+          "tagType": "28",
+          "group": "生活",
+          "id": "0"
+        },
+        {
+          "channelname": "健康",
+          "tagType": "29",
+          "group": "生活",
+          "id": "1"
+        },
+        {
+          "channelname": "家居",
+          "tagType": "30",
+          "group": "生活",
+          "id": "2"
+        },
+        {
+          "channelname": "购物",
+          "tagType": "31",
+          "group": "生活",
+          "id": "3"
+        },
+        {
+          "channelname": "丽人",
+          "tagType": "32",
+          "group": "生活",
+          "id": "4"
+        },
+        {
+          "channelname": "汽车",
+          "tagType": "33",
+          "group": "生活",
+          "id": "5"
+        },
+        {
+          "channelname": "旅游",
+          "tagType": "34",
+          "group": "生活",
+          "id": "6"
+        },
+        {
+          "channelname": "情感",
+          "tagType": "35",
+          "group": "生活",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "groupName": "产品",
+      "groupList": [
+        {
+          "channelname": "产品分类",
+          "tagType": "33",
+          "group": "产品",
+          "id": "0"
+        },
+        {
+          "channelname": "公司分类",
+          "tagType": "34",
+          "group": "产品",
+          "id": "1"
+        }
+      ]
+    },
+    {
+      "groupName": "项目",
+      "groupList": [
+        {
+          "channelname": "房产",
+          "tagType": "38",
+          "group": "项目",
+          "id": "1"
+        },
+        {
+          "channelname": "移民",
+          "tagType": "39",
+          "group": "项目",
+          "id": "2"
+        },
+        {
+          "channelname": "旅游",
+          "tagType": "40",
+          "group": "项目",
+          "id": "3"
+        },
+        {
+          "channelname": "教育",
+          "tagType": "41",
+          "group": "项目",
+          "id": "4"
+        },
+        {
+          "channelname": "文化",
+          "tagType": "42",
+          "group": "项目",
+          "id": "5"
+        },
+        {
+          "channelname": "科技",
+          "tagType": "43",
+          "group": "项目",
+          "id": "6"
+        },
+        {
+          "channelname": "汽车",
+          "tagType": "44",
+          "group": "项目",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "groupName": "投顾",
+      "groupList": [
+        {
+          "channelname": "荐股",
+          "tagType": "42",
+          "group": "投顾",
+          "id": "1"
+        },
+        {
+          "channelname": "工具",
+          "tagType": "43",
+          "group": "投顾",
+          "id": "2"
+        },
+        {
+          "channelname": "方法",
+          "tagType": "44",
+          "group": "投顾",
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "groupName": "券商",
+      "groupList": [
+        {
+          "channelname": "QDII/QFII",
+          "tagType": "45",
+          "group": "券商",
+          "id": "1"
+        },
+        {
+          "channelname": "交易",
+          "tagType": "46",
+          "group": "券商",
+          "id": "2"
+        },
+        {
+          "channelname": "资管",
+          "tagType": "47",
+          "group": "券商",
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "groupName": "基金",
+      "groupList": [
+        {
+          "channelname": "股票型",
+          "tagType": "48",
+          "group": "基金",
+          "id": "1"
+        },
+        {
+          "channelname": "货币型",
+          "tagType": "49",
+          "group": "基金",
+          "id": "2"
+        },
+        {
+          "channelname": "债券型",
+          "tagType": "50",
+          "group": "基金",
+          "id": "3"
+        }
+      ]
+    }
+  ]
+}

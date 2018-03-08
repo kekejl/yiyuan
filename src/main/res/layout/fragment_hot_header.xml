@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"></View>
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="猜你喜欢"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />
+        <LinearLayout
+            android:layout_alignParentRight="true"
+
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/iv_hotheader_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_refresh"
+                />
+            <TextView
+                android:id="@+id/tv_hot_more"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="换一批"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <com.yiyuaninfo.view.FlowLayout
+        android:id="@+id/flowlayout_hot_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.yiyuaninfo.view.FlowLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:nestedScrollingEnabled="false"
+        android:id="@+id/recycle_hot_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#ffffff">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+<TextView
+    android:textColor="@color/black"
+    android:padding="20dp"
+    android:id="@+id/tv_tuidan_tishi"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:text="您的申请已提交稍后会有客服人员与您联系，请及时接听  "
+    />
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="10dp">
+
+      <TextView
+          android:id="@+id/tv_tishi_qx"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:text="确定"
+          android:textColor="@color/white" />
+    </android.support.v7.widget.CardView>
+
+  </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yiyuaninfo">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    //友盟分享
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCEE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"></uses-permission>
+
+
+<application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/TranslucentTheme">
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MyActivity.AboutActivity"></activity>
+        <activity
+
+            android:name=".Activity.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Activity.MyActivity.SettingActivity"
+            android:launchMode="singleTask">
+
+
+        </activity>
+        <activity android:name=".Activity.MyActivity.AddressActivity"></activity>
+        <activity android:name=".Activity.MyActivity.SubscriptionActivity"></activity>
+        <activity android:name=".Activity.MyActivity.MyCenter.MyCenterActivity"></activity>
+        <activity android:name=".Activity.MyActivity.MessageActivity"></activity>
+        <activity android:name=".Activity.MyActivity.NoticeActivity"></activity>
+        <activity android:name=".Activity.MyActivity.MyOrderActivity"></activity>
+        <activity android:name=".Activity.MoreInfoActivity"></activity>
+        <activity android:name=".Activity.MyActivity.MyFavoriteActivity"></activity>
+        <activity
+            android:name=".Activity.HQActivity"
+
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Activity.RDActivity"></activity>
+        <activity android:name=".Activity.YLActivity"
+
+            ></activity>
+        <activity android:name=".Activity.SHActivity"></activity>
+        <activity android:name=".Activity.CPActivity"></activity>
+        <activity android:name=".Activity.XMActivity"></activity>
+        <activity android:name=".Activity.TGActivity"></activity>
+        <activity android:name=".Activity.QSActivity"></activity>
+        <activity android:name=".Activity.JJActivity"></activity>
+        <activity android:name=".Activity.MsgActivity"></activity>
+        <activity android:name=".Activity.MsgInfoActivity"></activity>
+        <activity android:name=".Activity.MyActivity.LogInActivity"></activity>
+        <activity android:name=".Activity.VideoActivity"></activity>
+        <activity android:name=".Activity.MActivity"></activity>
+        <activity android:name=".Activity.QQKFActivity"></activity>
+        <activity android:name=".Activity.WebViewActivity"></activity>
+        <activity android:name=".Activity.NewsDetailActivity"></activity>
+        <activity android:name=".Activity.GuideActivity"></activity>
+        <activity android:name=".Activity.PayActivity"></activity>
+        <activity android:name=".Activity.MediaDetaiActivity"></activity>
+        <activity android:name=".Activity.WenActivity"></activity>
+        <activity android:name=".Activity.PushListActivity"></activity>
+        <activity android:name=".Activity.FinderActivity"></activity>
+        <activity android:name=".Activity.Activity"></activity>
+        <activity android:name=".Activity.MyActivity.RegistActivity"></activity>
+        <activity android:name=".Activity.MyActivity.ForgetPwdActivity"></activity>
+        <activity android:name=".Activity.MyActivity.AccountActivity"></activity>
+        <activity android:name=".Activity.MyActivity.PwdActivity"></activity>
+        <activity android:name=".Activity.MyActivity.PhoneActivity"></activity>
+        <activity android:name=".Activity.MyActivity.MyCenter.XiuGaiUserActivity"></activity>
+        <activity android:name=".Activity.NewsImageActivity"></activity>
+        <activity android:name=".Activity.UmengInfoActivity"></activity>
+        <activity android:name=".Activity.JFSCActivity"></activity>
+        <activity android:name=".Activity.XMDetailActivity"></activity>
+        <activity android:name=".Activity.FlashActivity"></activity>
+        <activity android:name=".Activity.DHJLActivity"></activity>
+        <activity android:name=".Activity.SZMXActivity"></activity>
+        <activity android:name=".Activity.CommentActivity"></activity>
+        <activity android:name=".Activity.CommentDetailActivity"></activity>
+        <activity android:name=".Activity.VideoDetailActivity"></activity>
+        <activity android:name=".Activity.MyActivity.MessageListActivity"></activity>
+        <activity android:name=".Activity.WelcomeActivity"></activity>
+        <activity android:name=".Activity.SearchActivity"></activity>
+        <activity android:name=".Activity.MyActivity.YJFKActivity"></activity>
+        <activity android:name=".Activity.RankActivity"></activity>
+        <activity android:name=".Activity.MediaMoreActivity"></activity>
+        <activity android:name=".Activity.MediaActivity"></activity>
+        <activity android:name=".Activity.AllNiuActivity"></activity>
+        <activity android:name=".Activity.VipActivity"></activity>
+        <activity android:name=".Activity.MyActivity.AddAddressActivity"></activity>
+        <activity android:name=".Activity.JFDHActivity"></activity>
+        <activity android:name=".Activity.MediaArtDetailActivity"></activity>
+        <activity android:name=".Activity.BuyJiFenActivity"></activity>
+        <activity android:name=".Activity.TestActivity"></activity>
+        <activity android:name=".Activity.QuestionActivity"></activity>
+        <activity android:name=".Activity.MonthCalendarActivity"></activity>
+        <activity android:name=".Activity.ShowDetailActivity"></activity>
+        <activity android:name=".Activity.YanBaoActivity"></activity>
+        <activity android:name=".Activity.PDFActivity"></activity>
+        <activity android:name=".Activity.TuiDanActivity"></activity>
+        <activity android:name=".Activity.TeSeFuWuActivity"></activity>
+        <activity android:name=".Activity.TuiDanTiShiActivity"></activity>
+        <activity
+            android:name=".Activity.UmengMessageActivity"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".Activity.UmengNewsActivity"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".Activity.UmengTeSeActivity"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".Activity.UmengNiuActivity"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".Activity.UmengShowActivity"
+            android:launchMode="singleTask"></activity>
+   //微信支付
+    <activity
+        android:name=".wxapi.WXPayEntryActivity"
+        android:exported="true"
+        android:launchMode="singleTop" />
+        //QQ精简版
+
+        <activity
+            android:name="com.umeng.qq.tencent.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106277112" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.umeng.qq.tencent.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.UMDefault" />
+        //友盟推送
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="58f9c49a734be402bb00088a"></meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="249da62ef9730421bcd3e08f4e1d9ea6"></meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="yingyongbao"></meta-data>
+
+        //新浪
+
+        <activity
+            android:name="com.umeng.socialize.media.WBShareCallBackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+
+        <activity
+            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        //微信
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <service
+            android:name=".VersionService"
+            android:enabled="true"
+            android:exported="true">
+
+        </service>
+        <service android:name=".server.MusicServer" />
+
+    </application>
+
+</manifest>

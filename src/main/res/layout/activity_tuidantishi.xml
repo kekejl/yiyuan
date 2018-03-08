@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/icon_tuidan"
+        />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您的申请已提交，客服人员会在24小时内与您联系，请注意接听来电"
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_bg"
+        android:id="@+id/btn_tuidantishi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="确定" />
+
+</LinearLayout>

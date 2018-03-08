@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wode_lineheight"
+            android:background="@color/linecolor"></View>
+
+        <LinearLayout
+            android:id="@+id/ll_account_phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="修改手机号"
+                android:textColor="@color/black"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/image_right"
+                android:layout_height="@dimen/image_right"
+                android:layout_marginRight="@dimen/image_margin_right"
+                android:src="@drawable/right_icon" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/setting_linepadding">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wode_lineheight"
+                android:background="@color/linecolor"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_account_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="修改密码"
+                android:textColor="@color/black"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/image_right"
+                android:layout_height="@dimen/image_right"
+                android:layout_marginRight="@dimen/image_margin_right"
+                android:src="@drawable/right_icon" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

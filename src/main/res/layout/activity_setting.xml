@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wode_lineheight"
+            android:background="@color/linecolor"></View>
+        <LinearLayout
+            android:id="@+id/ll_setting_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="账号与安全"
+                android:textColor="@color/black" />
+            <ImageView
+                android:layout_width="@dimen/image_right"
+                android:layout_height="@dimen/image_right"
+                android:layout_marginRight="@dimen/image_margin_right"
+                android:src="@drawable/right_icon" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/setting_linepadding"
+            android:paddingRight="@dimen/setting_linepadding"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wode_lineheight"
+                android:background="@color/linecolor"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_address"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="我的地址"
+                android:textColor="@color/black" />
+            <ImageView
+                android:layout_width="@dimen/image_right"
+                android:layout_height="@dimen/image_right"
+                android:layout_marginRight="@dimen/image_margin_right"
+                android:src="@drawable/right_icon" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/setting_linepadding"
+            android:paddingRight="@dimen/setting_linepadding"
+
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wode_lineheight"
+                android:background="@color/linecolor"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_dy"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="订阅设置"
+                android:textColor="@color/black" />
+            <ImageView
+                android:layout_width="@dimen/image_right"
+                android:layout_height="@dimen/image_right"
+                android:layout_marginRight="@dimen/image_margin_right"
+                android:src="@drawable/right_icon" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/setting_linepadding"
+            android:paddingRight="@dimen/setting_linepadding"
+
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wode_lineheight"
+                android:background="@color/linecolor"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_textsize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="字体大小"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/tv_setting_size"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="小"
+                android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/setting_linepadding"
+            android:paddingRight="@dimen/setting_linepadding"
+
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wode_lineheight"
+                android:background="@color/linecolor"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_notice"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="WiFi环境下播放"
+                android:textColor="@color/black" />
+            <!--<ImageView-->
+                <!--android:layout_width="@dimen/image_right"-->
+                <!--android:layout_height="@dimen/image_right"-->
+                <!--android:layout_marginRight="@dimen/image_margin_right"-->
+                <!--android:src="@drawable/right_icon" />-->
+            <CheckBox
+                android:id="@+id/checkbox_wifi"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:checked="true"
+                android:background="@drawable/checkbox_selecter"
+                android:button="@null" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/setting_linepadding"
+            android:paddingRight="@dimen/setting_linepadding"
+
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wode_lineheight"
+                android:background="@color/linecolor"></View>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_setting_Memorry"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iten_my_height"
+            android:background="@drawable/item_selecter"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_linepadding"
+                android:layout_weight="1"
+                android:text="清除缓存"
+                android:textColor="@color/black" />
+             <TextView
+
+                 android:id="@+id/tv_setting_huancun"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text=""
+                 android:layout_marginRight="10dp"
+                 />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/tv_settong_youmeng"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/background"></TextView>
+        </LinearLayout>
+
+
+
+         <LinearLayout
+             android:paddingRight="30dp"
+             android:paddingLeft="30dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_Back"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="退出登录"
+                android:textSize="16sp"
+                android:textColor="@color/white" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

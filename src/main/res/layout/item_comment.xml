@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_selecter"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    >
+
+
+        <com.yiyuaninfo.Ui.CircleImageView
+            android:id="@+id/civ_newsdetail"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hehe" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:id="@+id/tv_newsdetail_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="云梦泽"
+                    android:textColor="#697B92"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/tv_newsdetail_hf"
+                    android:layout_marginRight="10dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="回复"
+                    />
+
+                <CheckBox
+                    android:visibility="gone"
+                    android:id="@+id/checkbox_zan"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/checkbox_zan"
+                    android:button="@null" />
+
+                <ImageView
+                    android:id="@+id/iv_newsdetail_zan"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_newsdetail_zan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="200"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵"
+                android:id="@+id/tv_newsdetail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="12312313133"
+                android:id="@+id/tv_newsdetail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>

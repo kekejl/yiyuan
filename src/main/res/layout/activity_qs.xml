@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <!--<com.yiyuaninfo.Activity.colortrackview.ColorTrackTabLayout-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:background="@color/white"-->
+        <!--android:id="@+id/ColorTrackTabLayout_qs"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="35dp"-->
+        <!--app:tabIndicatorColor="@color/colorPrimary"-->
+        <!--app:tabMode="scrollable"-->
+        <!--app:tabSelectedTextColor="@color/colorPrimary"-->
+        <!--app:tabTextAppearance="@style/TextAppearanceBig"-->
+        <!--/>-->
+    <com.yiyuaninfo.view.TabPageIndicator
+        android:id="@+id/tabPageIndicator_qs"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </com.yiyuaninfo.view.TabPageIndicator>
+
+    <View
+        android:background="@color/home_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_qs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

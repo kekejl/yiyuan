@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_forget_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_phone_true" />
+
+        <EditText
+            android:id="@+id/et_forget_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:hint="手机号"
+            android:inputType="number"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/linecolor"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_regist_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_code_true" />
+
+        <EditText
+            android:id="@+id/et_forget_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:hint="验证码"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/linecolor"></View>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_forget_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/linecolor"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_regist_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_pwd_true" />
+
+        <EditText
+            android:id="@+id/et_forget_pwd"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:hint="最少6位，字母或数字"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/linecolor"></View>
+
+
+
+    <Button
+
+        android:id="@+id/bt_forget"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_bg"
+        android:text="修改密码"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

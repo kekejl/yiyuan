@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="45.0dip"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/detail_tool_bar_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="15.0dip"
+    android:paddingRight="15.0dip">
+
+    <LinearLayout
+        android:id="@+id/ll_questionall_pl"
+        style="@style/toolbar_action"
+        android:layout_height="32.0dip"
+        android:layout_gravity="center"
+        android:layout_weight="5.0"
+        android:background="@drawable/bg_detail_comment_btn"
+        android:drawablePadding="6.0dip"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/hf"
+            />
+        <TextView
+            android:paddingLeft="2.0dip"
+            android:text="提问…"
+            android:textColor="@drawable/detail_action_write_comment_text"
+            android:textSize="13.0sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

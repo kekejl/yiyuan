@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/edit_fankui"
+            android:gravity="top"
+            android:textSize="14sp"
+            android:hint="期待您的意见反馈"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+
+                android:id="@+id/button_fankui"
+                android:foreground="?attr/selectableItemBackground"
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="提交"
+                android:textSize="16sp"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

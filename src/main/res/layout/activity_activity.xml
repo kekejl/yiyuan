@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <com.yiyuaninfo.view.MyScrollview1
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="圣达菲阿圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲圣达菲阿斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲斯蒂芬圣达菲圣达菲圣达菲圣达菲圣达菲" />
+            <!--<app.tdj.com.recycleview.activity.TabPageIndicator-->
+                <!--android:layout_marginTop="50dp"-->
+                <!--android:id="@+id/tabPageIndicatorHomeFragment"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--&gt;-->
+
+            <!--</app.tdj.com.recycleview.activity.TabPageIndicator>-->
+
+            <!--<android.support.v4.view.ViewPager-->
+                <!--android:id="@+id/viewPagerHomeFragment"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </com.yiyuaninfo.view.MyScrollview1>
+</LinearLayout>

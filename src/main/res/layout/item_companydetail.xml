@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_selecter"
+    android:padding="10dp">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:lineSpacingExtra="3dp"
+        android:id="@+id/tv_companydetail_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:id="@+id/ll_companydetail"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_companydetail"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/a1" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_cp_tag"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="热"
+        android:textColor="@color/colorPrimary"
+        />
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_cp_companyname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京首证投资顾问有限公司"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cp_abstract"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="资金量:50000万" />-->
+
+        <!--<com.yiyuaninfo.view.FlowLayout-->
+            <!--android:visibility="gone"-->
+            <!--android:id="@+id/flowlayout_cp_tag"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp" />-->
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tv_cp_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="资金量:50000万" />
+            <TextView
+                android:layout_marginRight="20dp"
+                android:id="@+id/tv_cp_state"
+                android:layout_alignParentRight="true"
+                android:text="在售"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

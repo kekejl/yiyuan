@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/rv_news_header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  </android.support.v7.widget.RecyclerView>
+  <TextView
+      android:id="@+id/tv_news_ph_more"
+      android:padding="5dp"
+      android:gravity="center"
+      android:text="查看更多"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+</LinearLayout>

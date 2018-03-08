@@ -1,0 +1,144 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    lintOptions {
+        checkReleaseBuilds false
+// Or, if you prefer, you can continue to check for errors in release builds,
+// but continue the build even when errors are found:
+        abortOnError false
+    }
+    signingConfigs {
+        yiyuan {
+            keyAlias 'yiyuaninfo'
+            keyPassword 'yiyuan123'
+            storeFile file('/Users/gaocongcong/AndroidStudioProjects/studioapplication/yiyuaninfo/yiyuan.keystore')
+            storePassword 'yiyuan123'
+        }
+        config {
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.yiyuaninfo"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionName '1.1.0.1'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 7
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.yiyuan
+        }
+        debug {
+
+            signingConfig signingConfigs.yiyuan
+        }
+    }
+    productFlavors {
+    }
+}
+
+
+
+allprojects {
+    repositories {
+
+        maven { url "https://jitpack.io" }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //广告轮播
+    compile 'com.youth.banner:banner:1.4.8'
+    //加载图片
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    testCompile 'junit:junit:4.12'
+    //Log
+    compile 'com.orhanobut:logger:1.15'
+    //view
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.google.code.gson:gson:2.4'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.aurelhubert:ahbottomnavigation:1.3.3'
+    compile project(':magicindicator')
+    // compile project(':PushSDK')
+    compile project(':push')
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'com.zhy:base-rvadapter:3.0.3'
+    compile 'com.zhy:base-adapter:3.0.3'
+    //compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    //compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.8.5'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    //文字上下滚动广告
+    compile 'com.github.paradoxie:AutoVerticalTextview:0.1'
+    //视频播放
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.4'
+    compile 'com.squareup.picasso:picasso:2.5.1'
+    compile 'com.android.support:support-v4:25.2.1'
+    compile 'com.android.support:design:25.2.0'
+    //分享
+    compile files('libs/SocialSDK_QQ_Simplify.jar')
+    compile files('libs/SocialSDK_Sina_Simplify.jar')
+    compile files('libs/SocialSDK_WeChat_Simplify.jar')
+    compile files('libs/umeng_shareboard_widget.jar')
+    compile files('libs/umeng_social_api.jar')
+    compile files('libs/umeng_social_net.jar')
+    compile files('libs/umeng_social_shareboard.jar')
+    compile files('libs/umeng_social_shareview.jar')
+    compile files('libs/umeng_social_tool.jar')
+    //网络请求
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    //版本更新库
+    compile 'com.allenliu.versionchecklib:library:1.0.6'
+    //友盟分析
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    //Adapter
+    compile project(':library')
+    //compile project(':searchview')
+    compile project(':citypickerview')
+    compile project(':ncalendar')
+    compile project(':rxeasyhttp')
+    compile project(':librarytab')
+    //微信支付
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    //侧滑删除
+    compile 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.5'
+    //linearlayout
+    compile 'com.nineoldandroids:library:2.4.0'
+    //下拉刷新上拉加载
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-alpha-0'
+    compile 'me.henrytao:smooth-app-bar-layout:24.1.0.0'
+    //日历
+
+    // compile 'com.zhouyou:rxeasyhttp:2.0.2'
+
+    // compile 'com.necer.ncalendar:ncalendar:2.4.3'
+
+    // compile 'com.github.w446108264:ScrollableLayout:1.0.3'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    //可以展开的textview
+    compile project(':ExpandableTextView')
+    compile 'com.dou361.dialogui:jjdxm-dialogui:1.0.3'
+    compile 'com.github.barteksc:android-pdf-viewer:3.0.0-beta.5'
+    compile files('libs/utdid4all-1.1.5.3_proguard.jar')
+    //缓存
+    compile 'com.github.Mr-wangyong:RetrofitCache:v1.0'
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+   <TextView
+       android:textSize="14sp"
+       android:gravity="center"
+       android:background="@color/home_divider"
+       android:textColor="@color/colorPrimary"
+       android:id="@+id/tv_tougu_header"
+       android:layout_width="match_parent"
+       android:layout_height="30dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"></View>
+        <TextView
+            android:text="推荐"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_tg_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_refresh"
+            />
+        <TextView
+            android:id="@+id/tv_tg_change"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="换一批"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+        <View
+            android:background="@color/home_divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"></View>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_tougu_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+<View
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="5dp">
+
+</View>
+    <LinearLayout
+        android:id="@+id/ll_show_header"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"></View>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:text="公司列表"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

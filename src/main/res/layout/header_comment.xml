@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_selecter"
+    android:orientation="vertical"
+    >
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:paddingBottom="20dp"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:paddingTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <com.yiyuaninfo.Ui.CircleImageView
+        android:id="@+id/civ_header_hf"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/hehe" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_header_hf_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="云梦泽"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_header_hf_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_header_hf_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="12312313133"
+                android:textSize="12sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_header_hf_zan"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_header_hf_zan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="200"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <View
+        android:background="@color/home_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp">
+
+    </View>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="全部回复"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

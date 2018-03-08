@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_channel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_top">
+
+        </View>
+        <RelativeLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:id="@+id/image_back_newsdetail"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrow_back"
+                />
+            <TextView
+                android:layout_centerInParent="true"
+                android:id="@+id/tvTitle_newdetail"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sll_news"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+
+
+
+
+
+       <ProgressBar
+           android:id="@+id/pb_msginfo"
+           style="?android:attr/progressBarStyleHorizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="3dip"
+           android:indeterminateOnly="false"
+           android:max="100"
+           android:progressDrawable="@drawable/progress_bar_states"></ProgressBar>
+
+       <WebView
+    android:id="@+id/wv_news_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    </WebView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_news_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    </android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/new_tool_bar" />
+</LinearLayout>

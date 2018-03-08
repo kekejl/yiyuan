@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_selecter"
+    android:orientation="vertical"
+    >
+
+
+    <com.yiyuaninfo.view.EasyJCVideoPlayer
+        android:id="@+id/videoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <com.yiyuaninfo.view.FlowLayout
+            android:layout_marginLeft="10dp"
+            android:id="@+id/fl_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.yiyuaninfo.view.FlowLayout>
+
+
+
+        <!--<TextView-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:text="壹元服务"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:id="@+id/tv_video_keyword"-->
+            <!--android:textSize="10sp"-->
+            <!--android:paddingRight="4dp"-->
+            <!--android:paddingLeft="4dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/popup_corner"-->
+            <!--/>-->
+
+        <TextView
+
+            android:id="@+id/tvFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            tools:text="世锋日上"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+
+
+        <ImageView
+
+            android:id="@+id/ivMore"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/more_video_selector"
+            />
+    </LinearLayout>
+   <View
+       android:background="@color/home_divider1"
+       android:layout_width="match_parent"
+       android:layout_height="0.5dp"></View>
+    <View
+        android:background="@color/home_divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        />
+</LinearLayout>

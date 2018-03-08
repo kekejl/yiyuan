@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ll_buyjifen_bg"
+    android:background="@drawable/button_money_border"
+
+    >
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tv_buyjifen_jifen"
+            android:text="1200积分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_rmb"
+                    android:textColor="@color/black"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"/>
+                <TextView
+                    android:textColor="@color/black"
+
+                    android:id="@+id/tv_buyjifen_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"/>
+        </LinearLayout>
+
+
+
+</LinearLayout>

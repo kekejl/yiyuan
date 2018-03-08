@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/tv_wen_fankui"
+            android:gravity="top"
+            android:textSize="18sp"
+            android:hint="dkawnlkdjalkwjdkj2\n打我打我打大威德啊我打完\r\n\r\n\r\n\t111111111111\r\n\r\n\r\n\t打我打"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <Button
+            android:id="@+id/button_fankui"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:text="提交"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+</LinearLayout>

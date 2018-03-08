@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_selecter"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <com.yiyuaninfo.Ui.CircleImageView
+                android:id="@+id/civ_question"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/hehe" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_question_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="云梦泽"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_question_time"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="2017-08-09" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_question_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="有什么相见恨晚的小知识？"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:lines="3"
+            android:ellipsize="end"
+            android:id="@+id/tv_question_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="1.米和水果别放在一起米容易发热，水果受热，把他们放在一起的话，水果的水分被蒸发而枯干，米吸收水分后易有蛀虫或霉变，霉变的米有毒素。2.鱼头一定要..." />
+    </LinearLayout>
+    <View
+        android:background="@color/home_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"></View>
+</LinearLayout>

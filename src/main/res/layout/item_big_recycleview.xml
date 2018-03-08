@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/text_big"
+          android:layout_alignParentBottom="true"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:gravity="center_vertical"
+          android:text="雄安概念股遭热捧 京津冀78只个股涨停"
+          android:textSize="@dimen/news_item_title_size"
+          android:textColor="#000000"
+          />
+      <ImageView
+          android:scaleType="fitXY"
+          android:id="@+id/image_big"
+          android:layout_width="match_parent"
+          android:layout_height="200dp" />
+
+      <TextView
+
+          android:id="@+id/text_time_big"
+          android:layout_alignParentBottom="true"
+          android:layout_width="match_parent"
+          android:layout_height="20dp"
+          android:gravity="center_vertical"
+          android:text="中国证券网讯  2小时前"
+          android:textSize="@dimen/news_item_time_size"
+          android:textColor="@color/news_item_time"
+          />
+  </LinearLayout>
+
+
+</LinearLayout>
+

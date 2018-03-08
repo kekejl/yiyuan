@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:id="@+id/tv_media_ph_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="1."
+        android:textSize="18sp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/iv_media_ph_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_media_header"
+            android:layout_width="85dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/a1" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_media_header_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="北京首证投资顾问有限公司"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_media_header_dingwei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="资金量:50000万" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="@dimen/hot_num"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="人气值" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="@dimen/hot_num"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        android:id="@+id/tv_media_header_pop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="9999999" />
+
+                    <ImageView
+                        android:id="@+id/iv_news_ph"
+                        android:layout_width="@dimen/hot_image"
+                        android:layout_height="@dimen/hot_image"
+                        android:src="@drawable/up" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_media_header_time"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="在售" />-->
+
+        <TextView
+            android:lines="2"
+            android:ellipsize="end"
+            android:id="@+id/tv_media_header_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在售" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_channel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+  <ProgressBar
+      android:id="@+id/pb_msginfo"
+      style="?android:attr/progressBarStyleHorizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="3dip"
+      android:indeterminateOnly="false"
+      android:max="100"
+      android:progressDrawable="@drawable/progress_bar_states" >
+  </ProgressBar>
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+
+        <WebView
+            android:id="@+id/web_msginfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+      </LinearLayout>
+    </ScrollView>
+
+  </FrameLayout>
+<LinearLayout
+    android:id="@+id/ll_xm_zx"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="40dp">
+    <LinearLayout
+        android:background="@color/orange"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+     <TextView
+         android:id="@+id/tv_xmdetail_zx"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="在线咨询"
+         android:textColor="@color/white"
+         android:gravity="center"
+         android:textSize="14sp"
+         />
+
+    </LinearLayout>
+  <LinearLayout
+      android:id="@+id/ll_xm_sc"
+      android:background="@color/colorPrimary"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_xm_sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:src="@drawable/xm_collect03"
+        />
+    <TextView
+        android:id="@+id/tv_xm_sc"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收藏"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="14sp"
+        />
+  </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>

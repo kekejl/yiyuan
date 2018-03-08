@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 外部定义四个类型的属性 -->
+
+    
+<declare-styleable name="CircleImageView1">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="PowerImageView">
+        <attr name="auto_play" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="PullScrollView">
+        <attr name="header" format="reference" />
+        <attr name="headerHeight" format="dimension" />
+        <attr name="headerVisibleHeight" format="dimension" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ColorTrackView">
+        <attr name="ctvText" format="string"/>
+        <attr name="ctvText_size" format="dimension"/>
+        <attr name="ctvText_origin_color" format="color"/>
+        <attr name="ctvText_change_color" format="color"/>
+        <attr name="ctvProgress" format="float"/>
+        <attr name="ctvDirection" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="PullZoomLayout">
+        <attr name="pzHeader" format="reference"/>
+        <attr name="pzMain" format="reference"/>
+    </declare-styleable>
+    <attr name="clickableBackground" format="reference"/>
+    <attr name="main_bg" format="reference|color"/>
+    <attr name="white_bg" format="reference|color"/>
+    <attr name="font_color" format="reference|color"/>
+    <attr name="font_color2" format="reference|color"/>
+    <attr name="font_red" format="reference|color"/>
+    <attr name="isColorUi" format="boolean"/>
+    <attr name="divider_black" format="reference|color"/>
+    <attr name="divider_light_grey" format="reference|color"/>
+
+
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="IdentityImageView">
+        <attr name="iciv_bigimage" format="reference"></attr><!--大图片-->
+        <attr name="iciv_smallimage" format="reference"></attr><!--小图片-->
+        <attr name="iciv_angle" format="float"></attr><!--标识角度-->
+        <attr name="iciv_radiusscale" format="float"></attr><!--大小图片比例-->
+        <attr name="iciv_isprogress" format="boolean"></attr><!--是否有进度条-->
+        <attr name="iciv_progress_collor" format="color|reference"></attr><!--进度条颜色-->
+        <attr name="iciv_border_color" format="color|reference"></attr><!--边框颜色-->
+        <attr name="iciv_border_width" format="integer"></attr><!--边框宽度-->
+        <attr name="iciv_hint_smallimageview" format="boolean"></attr><!--是否隐藏小图片-->
+    </declare-styleable>
+
+
+    <declare-styleable name="PagerSlidingTab">
+        <attr name="indicatorColor" format="color" />
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="underlineHeight" format="dimension" />
+        <attr name="pst_dividerPadding" format="dimension" />
+        <attr name="tabPaddingLeftRight" format="dimension" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="tabBackgrounds" format="reference" />
+        <attr name="sameLine" format="boolean" />
+        <attr name="pst_textAllCaps" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ZzHorizontalCalenderView">
+        <attr name="zhc_show_pick_dialog" format="boolean" />
+        <attr name="zhc_min_year" format="integer" />
+        <attr name="zhc_unit_color" format="color|reference" />
+        <attr name="zhc_selection_color" format="color|reference" />
+        <attr name="zhc_press_shape_selector" format="reference" />
+        <attr name="zhc_year_text_color" format="color|reference" />
+        <attr name="zhc_month_text_color" format="color|reference" />
+        <attr name="zhc_week_text_color" format="color|reference" />
+        <attr name="zhc_day_selected_text_color" format="color|reference" />
+        <attr name="zhc_day_unselected_text_color" format="color|reference" />
+        <attr name="zhc_today_point_color" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextViewAttr">
+        <!-- 允许显示最大行数 -->
+        <attr name="maxExpandLines" format="integer"></attr>
+        <!-- 动画执行时间 -->
+        <attr name="duration" format="integer"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="Search_View">
+        <attr name="textSizeSearch" format="dimension"  />
+        <attr name="textColorSearch" format="color" />
+        <attr name="textHintSearch" format="string" />
+        <attr name="searchBlockHeight" format="integer" />
+        <attr name="searchBlockColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandableLinearLayout">
+        <!--默认显示的条目数-->
+        <attr name="defaultItemCount" format="integer" />
+        <!--提示文字的大小-->
+        <attr name="tipTextSize" format="dimension" />
+        <!--字体颜色-->
+        <attr name="tipTextColor" format="color"/>
+        <!--待展开的文字提示-->
+        <attr name="expandText" format="string" />
+        <!--待收起时的文字提示-->
+        <attr name="hideText" format="string" />
+        <!--向下的箭头的图标-->
+        <attr name="arrowDownImg" format="reference" />
+        <!--是否使用默认的底部-->
+        <attr name="useDefaultBottom" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FlowLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLine" format="integer" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ScrollViewTabIndicator">
+        <attr name="tpi_tabPadding" format="reference|dimension"/>
+        <attr name="tpi_indicatorColor" format="reference|color"/>
+        <attr name="tpi_indicatorHeight" format="reference|dimension"/>
+        <attr name="tpi_underLineColor" format="reference|color"/>
+        <attr name="tpi_underLineHeight" format="reference|dimension"/>
+        <attr name="tpi_indicatorMode" format="integer">
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="android:textAppearance"/>
+        <attr name="tpi_tabBackground" format="reference"/>
+        <attr name="tpi_mode" format="integer">
+            <enum name="scroll" value="0x00000000"/>
+            <enum name="fixed" value="0x00000001"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

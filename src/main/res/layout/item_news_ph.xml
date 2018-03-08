@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="@drawable/item_selecter"
+    android:orientation="horizontal">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:id="@+id/tv_news_ph_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="1."
+        android:textSize="20sp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/iv_news_ph_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_news_ph_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="壹元服务"
+        android:textSize="14sp" />
+
+    <TextView
+        android:paddingRight="3dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_news_ph_wz"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="www.1yuanif.com"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:textColor="@color/black"
+            android:textSize="@dimen/hot_num"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人气值" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/hot_num"
+                android:textColor="@color/colorPrimary"
+                 android:gravity="center"
+                android:id="@+id/tv_news_ph_rq"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="9999999" />
+
+            <ImageView
+                android:id="@+id/iv_news_ph"
+                android:layout_width="@dimen/hot_image"
+                android:layout_height="@dimen/hot_image"
+                android:src="@drawable/up" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

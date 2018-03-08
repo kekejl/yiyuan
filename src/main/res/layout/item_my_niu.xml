@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_selecter"
+    android:padding="10dp">
+
+
+
+        <com.yiyuaninfo.Ui.CircleImageView
+            android:id="@+id/iv_my_media_header"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/a1" />
+   <LinearLayout
+       android:layout_marginLeft="10dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_marginTop="10dp"
+           android:maxLines="2"
+           android:ellipsize="end"
+           android:id="@+id/tv_my_media_title"
+           android:textSize="14sp"
+           android:textColor="@color/black"
+           android:text="擒张停每日送牛股"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           ></View>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textSize="12sp"
+               android:id="@+id/tv_my_media_name"
+               android:text="欧阳怡"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:textSize="12sp"
+               android:id="@+id/tv_my_media_time"
+               android:layout_marginLeft="20dp"
+               android:text="12:30"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>

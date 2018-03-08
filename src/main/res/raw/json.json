@@ -1,0 +1,319 @@
+{
+  "allTagsList": [
+    {
+      "tagsName": "行情",
+      "tagsId": "20",
+      "tagInfoList": [
+        {
+          "HotelLevels": [],
+          "tagType": "5",
+          "tagName": "股票",
+          "tagId": "487",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "5",
+          "tagName": "基金",
+          "tagId": "8",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "5",
+          "tagName": "债券",
+          "tagId": "2",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "5",
+          "tagName": "外汇",
+          "tagId": "1",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "5",
+          "tagName": "期货",
+          "tagId": "7",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        }
+      ]
+    },
+    {
+      "tagsName": "热点",
+      "tagsId": "4",
+      "tagInfoList": [
+        {
+          "HotelLevels": [],
+          "tagType": "2",
+          "tagName": "要闻",
+          "tagId": "8107",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "2",
+          "tagName": "时政",
+          "tagId": "8100",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "2",
+          "tagName": "社会",
+          "tagId": "8102",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "2",
+          "tagName": "国际",
+          "tagId": "8119",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "2",
+          "tagName": "军事",
+          "tagId": "8103",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "2",
+          "tagName": "教育",
+          "tagId": "8098",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        }
+      ]
+    },
+    {
+      "tagsName": "娱乐",
+      "tagsId": "5",
+      "tagInfoList": [
+        {
+          "HotelLevels": [],
+          "tagType": "1",
+          "tagName": "视频",
+          "tagId": "251",
+          "latlon": "39.91489679,116.40389967",
+          "lat": "116.40389967",
+          "lon": "39.91489679"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "1",
+          "tagName": "影视",
+          "tagId": "680",
+          "latlon": "39.92176165,116.40342882",
+          "lat": "116.40342882",
+          "lon": "39.92176165"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "音乐",
+          "tagId": "372748",
+          "latlon": "116.48433,39.86781",
+          "lat": "39.86781",
+          "lon": "116.48433"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "演出",
+          "tagId": "1092000",
+          "latlon": "116.24248,39.88556",
+          "lat": "39.88556",
+          "lon": "116.24248"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "游戏",
+          "tagId": "15865",
+          "latlon": "116.19798,40.00118",
+          "lat": "40.00118",
+          "lon": "116.19798"
+        }
+      ]
+    },
+    {
+      "tagsName": "生活",
+      "tagsId": "1",
+      "tagInfoList": [
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "美食",
+          "tagId": "42756",
+          "latlon": "116.58277,40.07814",
+          "lat": "40.07814",
+          "lon": "116.58277"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "健康",
+          "tagId": "1306726",
+          "latlon": "116.60363,40.05419",
+          "lat": "40.05419",
+          "lon": "116.60363"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "家居",
+          "tagId": "390037",
+          "latlon": "116.38715,39.79107",
+          "lat": "39.79107",
+          "lon": "116.38715"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "购物",
+          "tagId": "115274",
+          "latlon": "116.31108,39.89468",
+          "lat": "39.89468",
+          "lon": "116.31108"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "丽人",
+          "tagId": "24296",
+          "latlon": "116.41627,39.9045",
+          "lat": "39.9045",
+          "lon": "116.41627"
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "4",
+          "tagName": "汽车",
+          "tagId": "24282",
+          "latlon": "116.36629,39.86683",
+          "lat": "39.86683",
+          "lon": "116.36629"
+        }
+      ]
+    },
+    {
+      "tagsName": "产品",
+      "tagsId": "3",
+      "tagInfoList": [
+        {
+          "HotelLevels": [],
+          "tagType": "3",
+          "tagName": "365会员",
+          "tagId": "640",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "HotelLevels": [],
+          "tagType": "3",
+          "tagName": "首证两点半",
+          "tagId": "639",
+          "latlon": "",
+          "lat": "",
+          "lon": ""
+        }
+      ]
+    },
+    {
+      "tagsName": "项目",
+      "tagsId": "2",
+      "tagInfoList": [
+        {
+          "tagName": "房产"
+        },
+        {
+          "tagName": "移民"
+        },
+        {
+          "tagName": "文化"
+        },
+        {
+          "tagName": "教育"
+        },
+        {
+          "tagName": "科技"
+        },
+        {
+          "tagName": "旅游"
+        }
+      ]
+    },
+    {
+      "tagsName": "投顾",
+      "tagsId": "9",
+      "tagInfoList": [
+        {
+          "tagName": "荐股"
+        },
+        {
+          "tagName": "工具"
+        },
+        {
+          "tagName": "方法"
+        }
+      ]
+    },
+    {
+      "tagsName": "券商",
+      "tagsId": "9",
+      "tagInfoList": [
+        {
+          "tagName": "QDII/QFII"
+        },
+        {
+          "tagName": "交易"
+        },
+        {
+          "tagName": "资管"
+        }
+      ]
+    },
+    {
+      "tagsName": "基金",
+      "tagsId": "9",
+      "tagInfoList": [
+        {
+          "tagName": "股票型"
+        },
+        {
+          "tagName": "货币型"
+        },
+        {
+          "tagName": "债券型"
+        }
+      ]
+    }
+  ]
+}
